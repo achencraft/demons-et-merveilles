@@ -32,4 +32,5 @@ Pour l'installer :
 Note:
 
 Ce site a été réalisé avec les anciennes fonction sql de PHP, aujourd'hui non supportées.
-Un patch a été ajouté pour convertir les anciennes fonctions en fonction mysqli
+Un patch a été ajouté pour convertir les anciennes fonctions en fonction mysqli.
+Le jour où le site repart en production, le remplacement des fonctions sera à faire.
