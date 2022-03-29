@@ -1,0 +1,487 @@
+/*****************************************************/
+/****General****/
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background:#e2f6ff url('../images/fond-galaxie.jpg');
+	background-size: 100%;
+	background-position-x: -300px;
+    background-position-y: 500px;
+	background-attachment: fixed;
+	padding-left:15%;
+	padding-right:15%;
+	font-family:Arial, Geneva, sans-serif;
+}
+a
+{
+	text-decoration:none;
+	color:#E9B830;
+}
+a:hover
+{
+	color:#450773;
+}
+img, table, tr, td
+{
+	border:0px;
+}
+h1
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+.clean
+{
+	clear:both;
+}
+.left
+{
+	text-align:left;
+}
+.center
+{
+	text-align:center;
+}
+input
+{
+	width:150px;
+}
+select
+{
+	width:150px;
+}
+label
+{
+	width:250px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+}
+legend{
+	text-align: left;
+	margin-left: 1%;
+}
+table
+{
+	border-spacing:0px;
+	background:#ffffff;
+	-moz-border-radius:10px;
+	padding:0px;
+	width:95%;
+	max-width: 95%;
+	margin:5px auto 5px auto;
+	color:black;
+}
+
+table a{
+	color: #333333;
+}
+tr
+{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin:0px;
+}
+td
+{
+	margin:0px;
+	border:0px;
+	padding:3px;
+	/*text-align:center;*/
+	word-wrap: break-word;
+}
+
+th
+{
+	margin:0px;
+	border:0px;
+	padding:3px;
+	text-align:left;
+}
+/*****************************************************/
+/****Blocs****/
+.header
+{
+	margin:auto;
+	width:100%;
+	background:url('../images/banniere_test.jpg');
+	background-position-x: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 100%;
+	min-height: 250px;
+}
+.foot
+{
+	text-align:center;
+	background:url('../images/bluec_30p.png');
+	width:60%;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	margin:auto;
+	padding:10px;
+	margin-top:20px;
+}
+.content
+{
+	/*background:url('../images/bluec_30p.png');*/
+	background-color: #1f1f1f;
+	width:80%;
+	-moz-border-radius:20px;
+	margin:auto;
+	padding:20px;
+	margin-top:20px;
+	color: white;
+}
+
+#corps_de_page{
+	background-color: #111;
+	min-height: 94vh;
+	padding: 5px;
+	margin-top:10px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+footer{
+background-color: #450773;
+height: 30px;
+width: 100%;
+text-align: center;
+border-radius: 0% 0% 15px 15px;
+color: white;
+}
+
+footer a {
+color : white;
+text-decoration : none;
+}
+
+footer a:hover { color : #E9B830; }
+
+/*****************************************************/
+/****MENU****/
+
+.menu{
+background-color: #450773;
+height: 50px;
+width: 100%;
+}
+
+
+/* Je sélectionne les <li> du menu horizontal */
+ul#menu_horizontal li {
+padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+line-height : 50px;
+}
+
+ul#menu_horizontal {
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+width: 100%;
+height: 50px;
+}
+
+ul#menu_horizontal li.menu_droite{
+	float: right;
+}
+
+ul#menu_horizontal li.menu_gauche{
+	float: left;
+}
+
+
+ul#menu_horizontal a {
+text-decoration : none;
+padding : 0 0.5em;
+color: white;
+/*font :  0.8em "Trebuchet MS";*/
+}
+
+ul#menu_horizontal a:hover { color : #E9B830; }
+
+/*****************************************************/
+/****MENU ADMIN****/
+
+
+.menu_admin{
+background-color: #A4A4A4;
+height: 25px;
+width: 100%;
+color: black;
+}
+
+
+
+/* Je sélectionne les <li> du menu horizontal */
+.menu_admin ul#menu_horizontal li {
+padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+line-height : 25px;
+}
+
+.menu_admin ul#menu_horizontal {
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+width: 100%;
+height: 25px;
+}
+
+.menu_admin ul#menu_horizontal li.menu_droite{
+	float: right;
+}
+
+.menu_admin ul#menu_horizontal li.menu_gauche{
+	float: left;
+}
+
+
+.menu_admin ul#menu_horizontal a {
+text-decoration : none;
+padding : 0 0.5em;
+color: black;
+/*font :  0.8em "Trebuchet MS";*/
+}
+
+.menu_admin ul#menu_horizontal a:hover { color : #450773; }
+
+/*****************************************************/
+/****MENU ADMIN GAMES****/
+
+
+.menu_admin_games{
+background-color: #848484;
+height: 25px;
+width: 100%;
+color: black;
+}
+
+/*****************************************************/
+/****Liste tables****/
+
+.table_view{
+	min-height: 100px;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	margin-top: 10px;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+	background-color: #1f1f1f;
+}
+
+.table_view_image{
+	width: 27%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.table_view_infos{
+	width: 72%;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.table_view_infos hr{
+	display: block;
+	width:75%;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.table_view_titre{
+	font-size: 20px;
+}
+
+
+.table_view_info_left{
+	width:50%;
+	float: left;
+	display: inline-block;
+}
+
+.table_view_info_right{
+	display: inline-block;
+}
+.table_view_info_subscribe{
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+	text-align: center;
+	width: 20%;
+}
+
+.table_view_info_subscribe span{
+	padding: 3px;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+/*****************************************************/
+/****description table****/
+.table_info{
+	min-height: 100px;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	margin-top: 10px;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+	background-color: #1f1f1f;
+	padding: 15px;
+}
+
+.table_recap{
+	width:40%;
+	margin: auto;
+	background-color: #111;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 15px;
+
+}
+
+.table_recap img{
+	filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1);
+    -o-filter: invert(1);
+    -ms-filter: invert(1);
+}
+
+.subscribe span{
+	padding: 3px;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+
+/*****************************************************/
+/****Contenu****/
+.affiche{
+	float:right;
+	margin-left:20px;
+}
+
+.big
+{
+	font-size:1.2em;
+}
+.small
+{
+	font-size:0.7em;
+}
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('../images/black_40p.png');
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
+.messages_table td
+{
+	border-top:1px solid #aaaaaa;
+	vertical-align:top;
+}
+.author
+{
+	width:150px;
+	border-right:1px solid #aaaaaa;
+}
+.title_cell
+{
+	width:45%;
+}
+.date
+{
+	font-style:italic;
+	text-align:right;
+	font-size:0.9em;
+	margin-right:10px;
+}
+.link_new_pm
+{
+	font-size:1.3em;
+	font-weight:bold;
+	margin:5px 0px 5px 0px;
+	display:inline-block;
+	border:1px solid #dddddd;
+	background:#ffffff;
+	padding:5px;
+}
+
+
+#message{
+	color: red;
+
+}
+
+
+.alerte
+{
+	padding:5px;
+	margin:auto;
+	width:500px;
+	background-color:#F6474A;
+	color:#ffffff;
+	text-align:center;
+}
+
+
+.danger
+{
+	padding:5px;
+	margin:auto;
+	width:500px;
+	background-color:#F3F781;
+	color:black;
+	text-align:center;
+}
+
+.cool
+{
+	padding:5px;
+	margin:auto;
+	width:500px;
+	background-color:#81F781;
+	color:black;
+	text-align:center;
+}
+
+
+/*****************************************************/
+/****Partenaires****/
+
+.partenaire_logo{
+	display: inline-inline-block;
+	width:300px;
+	text-align: center;
+}
+
+
+.partenaire_logo img{
+	border-radius: 50px;
+}
