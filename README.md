@@ -15,7 +15,7 @@ Ce site est une plateforme ayant pour objectif de :
 
 Cette plateforme a uniquement pour but d'organiser les parties de JdR qui se dérouleront en présentiel.
 
-Une version démo est disponible sur : https://demons-et-merveilles.lucas-lett.fr/  
+Une version démo est disponible sur : https://demo.lucas-lett.fr/demons-et-merveilles  
 Utilisez le compte démo suivant :  
 username : démo  
 password : 123456
